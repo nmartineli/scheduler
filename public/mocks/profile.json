@@ -1,16 +1,18 @@
 [
-  {
-    "id": 1,
-    "name": "",
-    "occupation": "",
-    "area":"",
-    "country": "",
-    "city":"",
-    "stars": "",
-    "reviews": "",
-    "pricePerSession": "",
-    "timePerSession": "",
-    "photo": "",
-    "description": ""
-  }
+	{
+		"id": 1,
+		"name": "Serene Mindscape",
+		"occupation": "Psychoanalyst",
+		"area": "Europe",
+		"country": "Spain",
+		"city": "Barcelona",
+		"locale": "es_ES",
+		"stars": 4,
+		"reviews": 20,
+		"pricePerSession": "120",
+		"currency": "EUR",
+		"timePerSession": "50",
+		"photo": "./images/1.jpg",
+		"description": "Hi, I'm Dr. Serene Mindscape, a psychoanalyst committed to helping you navigate life's challenges. With a deep understanding of the human mind, I offer a safe space for exploration and growth. Whether you're dealing with anxiety, depression, relationships, or seeking personal development, my tailored approach combines traditional and modern methods for your unique needs. Let's work towards your mental well-being and self-discovery. I'm here to support you every step of the way as we uncover your path to a more fulfilling life."
+	}
 ]
