@@ -1,23 +1,29 @@
+interface AvailabilityProps {
+	time: string;
+	available: boolean;
+}
+
+export interface ScheduleProps {
+	year: number;
+	month: string;
+	day: number;
+	weekday: string;
+	availability: Array<AvailabilityProps>;
+}
+
 export interface ProfileProps {
-    id: string;
-    name: string;
-    occupation: string;
-    area: string;
-    country: string;
-    city: string;
-    stars: string;
-    reviews: string;
-    pricePerSession: string;
-    timePerSession: string;
-    photo: string;
-    description: string
-  }
-
-  interface DateProps {
-    date: string;
-  }
-
-  export interface ScheduleProps {
-    id: string;
-    schedule: Array<DateProps>;
-  }
+	id: number;
+	name: string;
+	occupation: string;
+	area: string;
+	country: string;
+	city: string;
+	stars: string;
+	reviews: string;
+	pricePerSession: string;
+	currency: string;
+	minutesPerSession: string;
+	photo: string;
+	description: string;
+	schedule: Array<ScheduleProps>;
+}
