@@ -10,3 +10,6 @@ export const getFilteredSchedule = (schedule: ScheduleProps[], firstDay: Number)
 		return false;
 	});
 };
+
+export const formatCash = (value: number, locale: string, currency: string) =>
+	new Intl.NumberFormat(locale, { style: 'currency', currency: currency }).format(value);
