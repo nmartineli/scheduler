@@ -18,6 +18,7 @@ export interface ProfileProps {
 	area: string;
 	country: string;
 	city: string;
+	locale: string;
 	stars: string;
 	reviews: string;
 	pricePerSession: string;
