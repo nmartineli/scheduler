@@ -1,4 +1,4 @@
-This is a scheduler project developed using [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and [Tailwind CSS](https://tailwindcss.com/).
+This is a scheduler project developed using [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), Typescript and [Tailwind CSS](https://tailwindcss.com/).
 
 ## Getting Started
 
