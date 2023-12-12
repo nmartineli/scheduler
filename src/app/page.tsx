@@ -23,7 +23,7 @@ export default function Home() {
 	return (
 		<main className="bg-primary-lightest min-h-screen">
 			{profile ? (
-				<div className="flex flex-col items-center justify-between mx-auto py-4 px-8 sm:p-24 lg:w-4/5 lg:flex-row lg:content-start">
+				<div className="flex flex-col items-center justify-between mx-auto py-4 px-8 sm:p-12 lg:w-4/5 lg:flex-row lg:content-start gap-10">
 					<Profile {...profile} />
 					<Calendar {...profile} />
 				</div>
