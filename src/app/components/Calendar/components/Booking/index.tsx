@@ -2,11 +2,6 @@ import { ScheduleProps } from '@/types';
 import React from 'react';
 
 const Booking: React.FC<ScheduleProps> = (date) => {
-	const currentDate = new Date();
-	const timestamp = currentDate.getTime();
-
-	console.log(timestamp);
-
 	const availableStyle =
 		'bg-primary-lightest ring-inset ring-primary-darkest hover:ring-1 focus:ring-1 focus:ring-primary-darkest';
 	const unavailableStyle = 'bg-grayscale-light text-grayscale-medium';
