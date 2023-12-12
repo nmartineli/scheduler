@@ -1,4 +1,4 @@
-This is a scheduler project developed using [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), Typescript and [Tailwind CSS](https://tailwindcss.com/).
+This is a scheduler project developed using [Next.js](https://nextjs.org/), Typescript and [Tailwind CSS](https://tailwindcss.com/) by Natalia Martineli :sparkles:.
 
 ## Getting Started
 
@@ -16,7 +16,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## To Do
+## To Do :pencil2:
 
 - Increase the test coverage using Jest and React Test Library;
 - Use Redux to better manage the app state and logic.
